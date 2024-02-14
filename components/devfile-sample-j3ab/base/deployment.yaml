@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-j3ab
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0023-tenant/tkwch-fix-0075-0023-app/devfile-sample-j3ab@sha256:728580ef6b6ef231515a9cb61bf468eabab507c41a81cfe084cc888ba6f6200f
         name: my-nodejs
         ports:
         - containerPort: 3001
